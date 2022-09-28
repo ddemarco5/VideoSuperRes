@@ -1,0 +1,16 @@
+name: superres
+channels:
+   - pytorch
+   - anaconda
+   - conda-forge
+   - defaults
+dependencies:
+   - torchvision==0.8.1
+   - pytorch==1.7.0
+   - tqdm
+   - opencv
+   - pip
+   - pip:
+      - tensorboard
+      - pytorch-ssim
+      - ffmpeg-python

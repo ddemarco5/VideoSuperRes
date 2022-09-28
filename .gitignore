@@ -1,3 +1,8 @@
+/.gitold
+/.vscode
+/data/train/*
+/data/test/*
+/data/models/*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
